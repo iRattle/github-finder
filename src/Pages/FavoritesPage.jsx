@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { supabase } from '../services/supabaseClient';
+import { supabase } from '../Services/supabaseClient';
 import { Link } from 'react-router-dom';
 
 export function FavoritesPage({ isDark }) {
