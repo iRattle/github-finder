@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HomePage } from './Pages/HomePage';
+import { HomePage } from './pages/HomePage';
 import { useState } from 'react';
-import { UserProfilePage } from './Pages/UserProfilePage';
-import { FavoritesPage } from './Pages/FavoritesPage';
+import { UserProfilePage } from './pages/UserProfilePage';
+import { FavoritesPage } from './pages/FavoritesPage';
 import { Link } from 'react-router-dom';
 
 function App() {
