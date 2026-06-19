@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { getUser, getUserRepos } from '../services/githubApi';
-import { supabase } from '../Services/supabaseClient';
+import { supabase } from '../services/supabaseClient';
 
 export function UserProfilePage({ isDark }) {
   const { username } = useParams();

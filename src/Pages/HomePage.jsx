@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { SearchBar } from '../Components/SearchBar';
-import { searchUsers } from '../Services/githubApi';
+import { searchUsers } from '../services/githubApi';
 import { UserProfilePage } from './UserProfilePage';
 import { Link } from 'react-router-dom';
 
